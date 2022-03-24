@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Failed_Messages_for_Platform</fullName>
+    <columns>NAME</columns>
+    <columns>UniqueIdentifier__c</columns>
+    <columns>Operation_Type__c</columns>
+    <columns>Status__c</columns>
+    <columns>Request__c</columns>
+    <columns>CREATED_DATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>NAME</field>
+        <operation>contains</operation>
+        <value>EnlightenInboundGateway</value>
+    </filters>
+    <filters>
+        <field>Status__c</field>
+        <operation>equals</operation>
+        <value>Failed</value>
+    </filters>
+    <label>Platform Messages</label>
+</ListView>

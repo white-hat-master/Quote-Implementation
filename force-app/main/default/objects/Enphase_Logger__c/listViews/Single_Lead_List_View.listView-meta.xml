@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Single_Lead_List_View</fullName>
+    <columns>NAME</columns>
+    <columns>API_Type__c</columns>
+    <columns>UniqueIdentifier__c</columns>
+    <columns>Operation_Type__c</columns>
+    <columns>Status__c</columns>
+    <columns>Request__c</columns>
+    <columns>Body__c</columns>
+    <columns>CREATED_DATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>UniqueIdentifier__c</field>
+        <operation>equals</operation>
+        <value>4HN66PMNB</value>
+    </filters>
+    <label>Single Lead List View</label>
+</ListView>
